@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    box-sizing: border-box;
+   display: flex;
+    height: 100vh;
+    overflow:hidden;
+ 
+   
+}
+.body div{
+    display: inline-block;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    background:black;
+    border-radius: 15px;
+    display: block;
+}
+
+#Uname{  
+    position: relative;
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+  border-radius: 5px;
+    padding-left: 8px;  
+    background-color: white;
+    margin: 10px 0 10px 80px;
+
+}  
+#pass{  
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+  border-radius: 5px;
+    padding-left: 8px;  
+    background-color: white;
+    margin: 10px 0 10px 80px;
+}  
+#sign{
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+  border-radius: 8px;
+    padding-left: 8px;  
+    background-color: rgb(51, 250, 25);
+    margin: 15px 0 10px 85px; 
+}
+
+.psw{
+    margin: 15px 0 10px 150px; 
+}
+
+
+.div1{
+    background-color: black;
+    width: 26.33%;
+    float: left;
+  
+}
+
+    
+
+.div2{
+    background-color: black;
+    width: 26.33%;
+   float: right;
+}
+.middle{
+    background-color:rgb(24, 23, 23);
+    width: 47.33%;
+    margin: 0 auto;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
